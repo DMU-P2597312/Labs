@@ -1,0 +1,28 @@
+h1, h2, p, ul, img {
+    font-size: 3em;
+    margin: 30px
+  }
+
+p, ul {
+  font-size: 2em;
+}
+
+h1 {
+  background-color: indigo;
+    color: white;
+   text-align: center;
+   border-radius: 50px;
+}
+
+img {
+  width: 200%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #ddd;
+
+}
+
+h2 {
+  background-color: indigo;
+    color: white;
+    border-radius: 50px;
+}
