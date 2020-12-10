@@ -6,12 +6,18 @@ body {
 font-family: Arial, Helvetica,sans-serif;
 font-weight:300;
 color: rgb(109, 0, 115) ;
+text-align: center;
 }
 
 
+div {
+  text-align: center;
+}
 
-header, h2, p, nav, h1 {
-  text-align:center;
+
+ h2, p, h1, nav {
+text-align:center;
+
   color: white;
 }
 
@@ -22,10 +28,11 @@ font-size: 30px
 p, footer {
   border: 10px black solid;
   font-size: 30px
+
 }
 
 img {
-width: 25%;
+width: 20%;
 float: left;
 }
 
