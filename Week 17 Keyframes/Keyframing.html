@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <title></title>
+    <style>
+
+      @keyframes pulse {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    }
+    .container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(
+      90deg,
+    rgba(2,0,36,1) 0%,
+    rgba(82,9,121,1) 35%,
+    rgba(0,212,255,1) 100%
+    );
+    animation: pulse 5s infinite;
+    background-size: 400% 400%;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    </style>
+  </head>
+  <body>
+<div class="container"></div>
+  </body>
+</html>
